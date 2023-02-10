@@ -6,7 +6,7 @@ table_name = "topers_test"
 
 def add_to_db(stock_list):
     for stock in stock_list:
-        connection = mysql.connector.connect(user='root', password='Trader@01', host='127.0.0.1',
+        connection = mysql.connector.connect(user='root', password='xxxxxxxx', host='127.0.0.1',
                                              database='stockRecoDB')
         cursor = connection.cursor()
         today = date.today()
